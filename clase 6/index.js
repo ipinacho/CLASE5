@@ -6,6 +6,10 @@ console.log(pathLength)
 path.style.strokeDasharray = pathLength + ' ' + pathLength;
 path.style.strokeDashoffset = pathLength;
 
+window.addEventListener('scroll', () => {
+    const scrollPercentage = (document.documentElement.scrollTop + document.body)
+})
+
 });
 
 
